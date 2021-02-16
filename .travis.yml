@@ -2,9 +2,9 @@ language: java
 jdk:
 - openjdk8
 addons:
-    sonarcloud:
-        organization: "matteociccaglione"
-        token: d37176d3485b9c88d72b4ca1496e8ece69c30873
-script: 
-    - ant build
-    - sonar-scanner
+ sonarcloud:
+   organization: "matteociccaglione"
+   token: d37176d3485b9c88d72b4ca1496e8ece69c30873
+script:
+- ant build
+- sonar-scanner
